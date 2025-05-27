@@ -52,7 +52,7 @@
             </f:SimpleForm>
         </VBox>
 
-        <Table id="idTableSCart" inset="false">
+        <!-- <Table id="idTableSCart" inset="false">
             <headerToolbar>
                 <OverflowToolbar id="idOFT">
                     <content>
@@ -91,8 +91,8 @@
                     </cells>
                 </ColumnListItem>
             </items>
-        </Table>
-
+        </Table> -->
+        <core:Fragment fragmentName="com.training.exer1millares.fragment.ShopingCart" type="XML" />        
         <footer>
             <OverflowToolbar id="idOFTFooter">
                 <ToolbarSpacer id="idTSpacerFooter" />
